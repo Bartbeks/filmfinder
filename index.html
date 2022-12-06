@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="./js/movies.js"></script>
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header><h1>Winc Filmfinder</h1></header>
+    <nav>
+      <div class="nav-container">
+        <div>
+          <input type="radio" id="latest-movies" name="nav" value="1" />
+          <label for="latest-movies">latest movies, 2014 or higher</label>
+        </div>
+
+        <div>
+          <input type="radio" id="avengers" name="nav" value="2" />
+          <label for="avengers">avengers</label>
+        </div>
+        <div>
+          <input type="radio" id="x-men" name="nav" value="3" />
+          <label for="x-men">x-men movies</label>
+        </div>
+        <div>
+          <input type="radio" id="princess-movies" name="nav" value="4" />
+          <label for="princess-movies">princess movies</label>
+        </div>
+        <div>
+          <input type="radio" id="batman" name="nav" value="5" />
+          <label for="Batmans">Batman movies</label>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <ul id="movieList"></ul>
+    </main>
+    <footer>Hier de footer</footer>
+  </body>
+</html>
