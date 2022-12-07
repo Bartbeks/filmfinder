@@ -54,15 +54,23 @@ main > ul {
   padding: 1.5rem;
 }
 .searchcontent {
-  width: 228px;
+  width: 25vw;
   background: white;
   border-radius: 20px;
+  padding: 0.5rem;
 }
 button {
   border: none;
 }
+.searchBtn {
+  margin: 0 0 0 10px;
+}
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+
+  height: 20px;
+}
+[type="text"] {
+  width: 90%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }

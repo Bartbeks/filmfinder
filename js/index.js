@@ -78,6 +78,11 @@ searchBtn.addEventListener("click", (getSearchValue) => {
   removeMoviesFromTheDom();
   movieFilter("search");
 });
+document.querySelector("#search").addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    movieFilter("search");
+  }
+});
 
 function removeMoviesFromTheDom() {
   const lstMovie = document.getElementById("movieList");
