@@ -17,6 +17,10 @@ header {
   color: white;
   font-size: larger;
 }
+input {
+  border: solid 1px lightgray;
+  border-radius: 20px;
+}
 
 .nav-container {
   display: flex;
@@ -39,4 +43,26 @@ main > ul {
   justify-content: center;
   align-items: flex-start;
   /* height: 200px; */
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #101010;
+  padding: 1.5rem;
+}
+.searchcontent {
+  width: 228px;
+  background: white;
+  border-radius: 20px;
+}
+button {
+  border: none;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
 }
